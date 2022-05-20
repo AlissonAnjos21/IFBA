@@ -3,13 +3,16 @@ import java.util.ArrayList;
 public class Banco {
     private String nome;
     private int codigo;
-    private ArrayList<Cliente> clientes = new ArrayList<>();
-    private ArrayList<Funcionario> funcionarios = new ArrayList<>();;
-    private ArrayList<Conta> contas = new ArrayList<>();;
+    private ArrayList<Cliente> clientes;
+    private ArrayList<Funcionario> funcionarios;
+    private ArrayList<Conta> contas;
     private int agencias;
 
     public Banco() {
         this.nome = "";
+        this.clientes = new ArrayList<Cliente>();
+        this.funcionarios = new ArrayList<Funcionario>();
+        this.contas = new ArrayList<Conta>();
     }
 
     public Banco(String nome, int codigo, Cliente cliente, Funcionario funcionario, Conta conta, int agencias) {

@@ -17,10 +17,10 @@ public class Main {
         Funcionario funcionario2 = new Funcionario();
         funcionario1.setNome("Cleiton");
 
-        Conta conta1 = new Conta();
+        Conta conta1 = new Conta(0, 0);
         conta1.setNumero(1);
 
-        Conta conta2 = new Conta();
+        Conta conta2 = new Conta(1, 1);
         conta2.setNumero(2);
 
         banco.addCliente(cliente1);
