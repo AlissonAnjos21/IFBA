@@ -18,6 +18,9 @@ public class Banco {
     public Banco(String nome, int codigo, Cliente cliente, Funcionario funcionario, Conta conta, int agencias) {
         this.nome = nome;
         this.codigo = codigo;
+        this.clientes = new ArrayList<Cliente>();
+        this.funcionarios = new ArrayList<Funcionario>();
+        this.contas = new ArrayList<Conta>();
         this.addCliente(cliente);
         this.addFuncionario(funcionario);
         this.addConta(conta);

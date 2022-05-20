@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f6ef35-96b9-405c-aaa7-f88f366bdd83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Banco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExercicioBanco/Banco.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExercicioBanco/Banco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExercicioBanco/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExercicioBanco/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExercicioBanco/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExercicioBanco/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +70,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653010669701</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="idCliente e idFuncionario - Conta">
+      <created>1653082314057</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653082314057</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercicio Banco" />
     <MESSAGE value="Main" />
     <MESSAGE value="Out" />
-    <option name="LAST_COMMIT_MESSAGE" value="Out" />
+    <MESSAGE value="idCliente e idFuncionario - Conta" />
+    <option name="LAST_COMMIT_MESSAGE" value="idCliente e idFuncionario - Conta" />
   </component>
 </project>
