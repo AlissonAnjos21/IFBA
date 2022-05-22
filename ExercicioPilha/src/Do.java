@@ -12,4 +12,20 @@ public class Do<T> {
         this.item = item;
     }
 
+    public T getValor() {
+        return valor;
+    }
+
+    public void setValor(T valor) {
+        this.valor = valor;
+    }
+
+    public Do getItem() {
+        return item;
+    }
+
+    public void setItem(Do item) {
+        this.item = item;
+    }
+
 }
