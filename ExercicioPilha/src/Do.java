@@ -1,15 +1,15 @@
 public class Do<T> {
 
     private T valor;
-    private Do item;
+    private Do itemDo;
 
     public Do() {
-        this.item = null;
+        this.itemDo = null;
     }
 
-    public Do(T valor, Do item) {
+    public Do(T valor, Do itemDo) {
         this.valor = valor;
-        this.item = item;
+        this.itemDo = itemDo;
     }
 
     public T getValor() {
@@ -20,12 +20,12 @@ public class Do<T> {
         this.valor = valor;
     }
 
-    public Do getItem() {
-        return item;
+    public Do getItemDo() {
+        return itemDo;
     }
 
-    public void setItem(Do item) {
-        this.item = item;
+    public void setItemDo(Do item) {
+        this.itemDo = item;
     }
 
 }

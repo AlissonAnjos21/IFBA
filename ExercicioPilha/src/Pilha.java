@@ -1,21 +1,24 @@
 public class Pilha {
 
-    private Do item;
+    private Do itemPilha;
 
-    public Pilha(Do item) {
-        this.item = item;
+    public Pilha(Do itemPilha) {
+        this.itemPilha = itemPilha;
     }
 
-    public void Empilhar(Do item) {}
+    public Do getItemPilha() {
+        return itemPilha;
+    }
+
+    public void setItemPilha(Do itemPilha) {
+        this.itemPilha = itemPilha;
+    }
+
+    public void Empilhar(Do itemPilha) {
+        this.itemPilha.setItemDo(getItemPilha());
+        this.setItemPilha(itemPilha);
+    }
 
     public void Desempilhar() {}
-
-    public Do getItem() {
-        return item;
-    }
-
-    public void setItem(Do item) {
-        this.item = item;
-    }
 
 }
