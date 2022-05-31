@@ -1,24 +1,33 @@
 public class Pilha {
+    private No topo;
 
-    private Do itemPilha;
-
-    public Pilha(Do itemPilha) {
-        this.itemPilha = itemPilha;
+    public Pilha(No topo) {
+        this.topo = topo;
     }
 
-    public Do getItemPilha() {
-        return itemPilha;
+    public No getTopo() {
+        return this.topo;
     }
 
-    public void setItemPilha(Do itemPilha) {
-        this.itemPilha = itemPilha;
+    public void setTopo(No no) {
+        this.topo = topo;
     }
 
-    public void Empilhar(Do itemPilha) {
-        this.itemPilha.setItemDo(getItemPilha());
-        this.setItemPilha(itemPilha);
+    public void empilhar(No no) {
+        if(this.topo.getProx() == null) {
+            this.topo.setProx(no);
+        }else {
+            no.setProx(this.topo.getProx());
+            this.topo.setProx(no);
+        }
     }
 
-    public void Desempilhar() {}
+    public void desempilhar() {
+        if (this.topo.getProx() != null) {
+            this.topo.setProx(this.topo.getProx().getProx());
+        }else {
+            System.out.println("Você precisa ter um elemento inferior para conseguir desempilhar!!!");
+        }
 
+    }
 }
