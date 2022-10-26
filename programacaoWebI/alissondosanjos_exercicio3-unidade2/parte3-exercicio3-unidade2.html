@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Aula CSS</title>
+     <meta charset="utf-8">
+      <style>
+          *{
+              margin:0;
+              padding:0;
+          }
+          header{
+              
+              color: white;
+              background-color: red;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 150px;
+              
+          }
+          nav{
+              
+              background-color: brown;
+              height: 40px;
+              
+          }
+          nav ul{
+              
+              background-color: brown;
+              text-align: center;
+              
+          }
+          nav li{
+              
+              background-color: brown;
+              display: inline-block;
+              margin: 10px;
+        
+          }
+          
+          nav li a{
+              
+              background-color: brown;
+              color: white;
+              
+          }
+          
+          main{
+              
+              background-color: white;
+              height: 1000px;
+              display: flex;
+              
+          }
+          
+          main .conteudo{
+              
+              background-color: aliceblue;
+              width: 1100px;
+              
+          }
+          
+          .conteudo .container{
+              
+              background-color: aliceblue;
+              display: flex;
+              justify-content: space-around;
+              
+          }
+          
+          .conteudo .noticia{
+              
+              background-color: darkslateblue;
+              height: 200px;
+              width: 300px;
+              
+          }
+          
+          main .lateral1{
+              
+              background-color: coral;
+              order: -1;
+              
+          }
+          main .lateral2{
+              
+              background-color: white;
+              
+          }
+          footer{
+              
+              background-color: red;
+              height: 100px;
+              
+          }
+          
+      </style>
+      
+      
+    </head>
+    <body>
+            <header>
+                <h1>Minha Página</h1>   
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Item 1</a></li>
+                    <li><a href="#">Item 2</a></li>
+                    <li><a href="#">Item 3</a></li>
+                </ul> 
+           </nav>
+           <main>
+                <section class="conteudo">
+                    <h3>Conteúdo</h3>   
+                    <div class="container">
+                        <div class="noticia">Notícia 1</div>
+                        <div class="noticia">Notícia 2</div>
+                        <div class="noticia">Notícia 3</div>
+                    </div>    
+                    
+                </section>
+               <aside class="lateral1">
+                    <h3>Conteúdo Lateral 1</h3>
+               </aside>
+               <aside class="lateral2">
+                    <h3>Conteúdo Lateral 2</h3>
+               </aside>
+            </main>
+            <footer>
+                <h3>Rodapé</h3>   
+           </footer>   
+        
+        
+        
+        
+        
+    </body>    
+</html>

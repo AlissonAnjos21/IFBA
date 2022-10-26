@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display</title>
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-color:gainsboro;
+            }    
+            .layout{
+                box-sizing: border-box;
+                background-color:white;
+                border:2px solid #CCC;
+                width:800px;
+                margin:0 auto;
+                padding:10px;
+                display: flex;
+            }
+            main{
+                background-color:antiquewhite;
+                flex-grow: 2;
+            }
+            .sidebar1{
+                background-color:burlywood;
+                order: -1;
+            }
+            .sidebar2{
+                background-color:#DDD;
+                flex-basis: 300px;
+            }
+        </style>
+    </head>
+    <body>
+<div class="layout">
+  <main>
+    <h2>Coluna Principal</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam voluptatibus soluta, consequuntur, reiciendis debitis omnis fugiat libero pariatur amet laudantium minima consectetur tenetur. Repudiandae, autem, voluptate modi deleniti sequi voluptatum!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi earum fugit veniam amet quae sint vitae numquam dolore sunt quod a odio officia voluptate doloribus, at. Cum quasi mollitia eaque. Voluptatibus soluta, consequuntur, reiciendis debitis omnis fugiat libero pariatur amet laudantium.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam voluptatibus soluta, consequuntur, reiciendis debitis omnis fugiat libero pariatur amet laudantium minima consectetur tenetur. Repudiandae, autem, voluptate modi deleniti sequi voluptatum!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi earum fugit veniam amet quae sint vitae numquam dolore sunt quod a odio officia voluptate doloribus, at. Cum quasi mollitia eaque.</p>
+  </main>
+
+  <aside class="sidebar1">
+    <h3>Sidebar 1</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum modi nisi tenetur sint dignissimos nulla, blanditiis nesciunt.</p>
+  </aside>
+
+  <aside class="sidebar2">
+    <h3>Sidebar 2</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum modi nisi tenetur sint dignissimos nulla, blanditiis nesciunt.</p>
+  </aside>
+</div>
+        
+  </body>
+</html>

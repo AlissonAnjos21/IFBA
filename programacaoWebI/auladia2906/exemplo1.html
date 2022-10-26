@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display</title>
+        <meta charset="UTF-8">
+        <style>
+            .box{
+                width:600px;
+                height:350px;
+                background-color:bisque;
+                border:2px solid green;
+                margin:50px;
+                
+            }
+            .elem{
+                background-color:blue;
+                margin:5px;
+            }
+            
+            .container1{
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: flex-end;
+                
+                
+            }
+            
+            .container2{
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-end;
+                
+            }
+            
+            .container3{
+                
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                align-content: center;
+                
+            }
+            
+            .container3 > .elem{
+                
+                width: 250px;
+                height: 50px;
+                
+            }
+            
+            .container4{
+                
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                
+            }
+            
+            .container4 > .elem{
+                
+                flex-grow: 1;
+                
+            }
+            
+            .container4 > .elem2{
+                
+                flex-grow: 2;
+                
+            }
+            
+            .container5{
+                
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: flex-start;
+                
+            }
+            
+            .container5 > .elem1{
+                
+                align-self: flex-end;
+                
+            }
+            
+            .container5 > .elem3{
+                
+                align-self: center;
+                
+            }
+            
+            .container5 > .elem6{
+                
+                order: -1;
+                
+            }
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="box container1">
+            <div class="elem">Elemento 1</div>
+            <div class="elem">Elemento 2</div>
+            <div class="elem">Elemento 3</div>
+            <div class="elem">Elemento 4</div>
+            <div class="elem">Elemento 5</div>
+            <div class="elem">Elemento 6</div>
+        </div>
+    
+
+        <div class="box container2">
+            <div class="elem">Elemento 1</div>
+            <div class="elem">Elemento 2</div>
+            <div class="elem">Elemento 3</div>
+            <div class="elem">Elemento 4</div>
+            <div class="elem">Elemento 5</div>
+            <div class="elem">Elemento 6</div>
+        </div>
+        
+         <div class="box container3">
+            <div class="elem">Elemento 1</div>
+            <div class="elem">Elemento 2</div>
+            <div class="elem">Elemento 3</div>
+            <div class="elem">Elemento 4</div>
+            <div class="elem">Elemento 5</div>
+            <div class="elem">Elemento 6</div>
+        </div>
+        
+         <div class="box container4">
+            <div class="elem">Elemento 1</div>
+            <div class="elem elem2">Elemento 2</div>
+            <div class="elem">Elemento 3</div>
+        </div>
+        
+        <div class="box container5">
+            <div class="elem elem1">Elemento 1</div>
+            <div class="elem elem2">Elemento 2</div>
+            <div class="elem elem3">Elemento 3</div>
+            <div class="elem elem4">Elemento 4</div>
+            <div class="elem elem5">Elemento 5</div>
+            <div class="elem elem6">Elemento 6</div>
+        </div>
+    
+    </body>
+</html>

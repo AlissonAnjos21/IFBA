@@ -1,0 +1,1 @@
+prompt("Você está aprendendo Javascript?");

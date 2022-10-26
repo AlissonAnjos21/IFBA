@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+    
+    </head>
+
+    <body>
+    
+        
+        
+    <script>
+        
+        let num1 = prompt("Digite o Primeiro Número");
+        let num2 = prompt("Digite o Segundo Número");
+        
+        num1 = parseInt(num1);
+        num2 = parseFloat(num2);
+        
+        let expo = num1 ** num2; //Número 1  elevado ao Número 2
+        
+        let soma = num1 + num2; //Número 1  somado ao Número 2
+        
+        let sub = num1 - num2; //Número 1  subtraido ao Número 2
+        
+        let multi = num1 * num2; //Número 1  multiplicado ao Número 2
+        
+        let div = num1 / num2; //Número 1  dividido ao Número 2
+        
+        let resto = num1 % num2; //Resto da divisão do Número 1 em relação Número 2
+        
+        document.write("<h1>Calculadora</h1>");
+        document.write("<p>A soma de "+num1+" e "+num2+" é igual a "+soma+"</p>");
+        
+        document.write("<p> A subtração de "+num1+" e "+num2+" é igual a "+sub+"</p>");
+        
+        document.write("<p> A multiplicação de "+num1+" e "+num2+" é igual a "+multi+"</p>");
+        
+        document.write("<p> A divisão de "+num1+" e "+num2+" é igual a "+div+"</p>");
+        
+        //document.write("<p> O resto da divisão de "+num1+" e "+num2+" é igual a "+resto+"</p>");
+        
+        document.write(`<p>Exponenciação: ${num1} <sup> ${num2}</sup> = ${expo}</p>`);
+        
+        document.write(`<p>Resto da divisão: ${num1} <sup> ${num2} </sup> = ${resto}</p>`);
+        
+        </script>
+    
+    </body>
+
+</html>

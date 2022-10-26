@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display</title>
+        <meta charset="UTF-8">
+        <style>
+            .inline{
+                border:2px solid green;
+                margin:20px;
+                width:600px;
+            }
+            .inline > *{
+                background-color:red;
+            }
+            
+            .inline > strong{
+                
+                background-color: blue;
+                width: 200px;
+                display: block;
+                
+            }
+            
+            .block{
+                border:2px solid green;
+                margin:20px;
+                width:600px;
+            }
+            .block > *{
+                background-color:blue;
+                display: inline;
+            }
+            
+            .inline-block1{
+                border:2px solid red;
+                margin:20px;
+                width:600px;
+            }
+            .inline-block1 > *{
+                background-color:green;
+                width: 100px;
+                height: 55px;
+                display: inline-block;
+            }
+            
+            .inline-block2{
+                border:2px solid orange;
+                margin:20px;
+                width:600px;
+            }
+            .inline-block2 > *{
+                background-color:coral;
+                display: inline-block;
+                width: 120px;
+            }
+            
+            .menu{
+                
+                height: 50px;
+                background-color: black;
+                color: white;
+            }
+            
+            .menu > li{
+                
+                display: inline-block;
+                border-right: 3px solid white;
+                height: 50px;
+                padding: 2px 30px;
+                font-size: 1.5em;
+                line-height: 50px;
+                
+            }
+            
+            .menu > li >a{
+                
+                color: white;
+                text-decoration: none;
+                
+            }
+            
+            .menu > li >a:hover{
+                
+                color: yellow;
+                text-decoration: underline;
+                
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="inline">
+            <span>Somos</span> <strong>Elementos</strong> <em>em</em> <a href="#">linha</a>
+        </div>
+        
+        <div class="block">
+            <h1>Somos</h1>
+            <p>Elementos</p>
+            <h3>em</h3>
+            <div>Bloco</div>
+        </div>
+        
+        <div class="inline-block1">
+            <span>Somos</span> <strong>Elementos</strong> <em>em</em> <a href="#">linha</a>
+        </div>
+        
+        <div class="inline-block2">
+            <h1>Somos</h1>
+            <p>Elementos</p>
+            <h3>em</h3>
+            <div>Bloco</div>
+        </div>
+        
+        <ul class="menu">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    
+    </body>
+</html>

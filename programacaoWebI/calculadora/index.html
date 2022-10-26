@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="stype.css">
+    
+    </head>
+    
+    <body>
+    
+        
+        <script src="script.js"></script>
+        
+        <div id="calculadora">
+        
+        <form name="cal" method="post">
+            
+            <input type="text" name="tela" id="painel">
+            
+            <br>
+            
+            <input type="button" name="n9" class="n" value="9" onclick="numero(9)">
+            <input type="button" name="n8" class="n" value="8" onclick="numero(8)">
+            <input type="button" name="n7" class="n" value="7" onclick="numero(7)">
+            <input type="reset" name="C" class="o" value="C">
+            
+            <br>
+            
+            <input type="button" name="n6" class="n" value="6" onclick="numero(6)">
+            <input type="button" name="n5" class="n" value="5" onclick="numero(5)">
+            <input type="button" name="n4" class="n" value="4" onclick="numero(4)">
+            <input type="button" name="ig" class="o" value="=" onclick="tipoOperacao('=')">
+            
+            <br>
+            
+            <input type="button" name="n3" class="n" value="3" onclick="numero(3)">
+            <input type="button" name="n2" class="n" value="2" onclick="numero(2)">
+            <input type="button" name="n1" class="n" value="1" onclick="numero(1)">
+            <input type="button" name="ad" class="o" value="+" onclick="tipoOperacao('+')">
+            
+            <br>
+            
+            <input type="button" name="mu" class="o" value="*" onclick="tipoOperacao('*')">
+            <input type="button" name="n0" class="n" value="0" onclick="numero(0)">
+            <input type="button" name="di" class="o" value="/" onclick="tipoOperacao('/')">
+            <input type="button" name="su" class="o" value="-" onclick="tipoOperacao('-')">
+            
+        </form>
+            
+        </div>
+    
+    </body>
+
+</html>
